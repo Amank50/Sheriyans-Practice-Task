@@ -1,0 +1,155 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin-left: 35px;
+  color: white;
+}
+.nav-item {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.nav-item li {
+  font-size: 16px;
+}
+.nav-btn {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #181818;
+  border: none;
+  color: white;
+}
+.text {
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-size: 115px;
+
+  font-weight: 400;
+
+  color: rgb(240, 239, 237);
+}
+
+.text button {
+  height: 40px;
+  padding: 10px;
+  margin: 4px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+}
+.btn-4 {
+  width: 80px;
+  background-color: #181818;
+}
+.btn-2 {
+  width: 65px;
+  background-color: #0e0e0e;
+}
+
+.btn-1 {
+  width: 55px;
+  background-color: #fd4808;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.card-1 {
+  height: 380px;
+  width: 300px;
+
+  background-color: #181818;
+  border-radius: 15px;
+}
+.card-2 {
+  height: 380px;
+  width: 300px;
+  background-color: #181818;
+  border-radius: 15px;
+}
+.card-3 {
+  height: 380px;
+  width: 300px;
+  background-color: #181818;
+  border-radius: 15px;
+}
+
+.image-container-1 {
+  width: 300px;
+  height: 220px;
+  background-image: url(https://assets.lummi.ai/assets/QmUStEZdVWFgYh6a9JxwhRnp8ycrmvZzwVS2n154RCaxBe?auto=format&w=640);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.image-container-2 {
+  width: 300px;
+  height: 220px;
+  background-image: url(https://assets.lummi.ai/assets/QmaLJLztpwec5dhRriuXGij4xsiR4EvtPiLvKMi7b2u7qe?auto=format&w=640);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.image-container-3 {
+  width: 300px;
+  height: 220px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/048/640/697/small/charming-portrait-of-cats-with-a-b-red-background-emphasizing-their-playfulness-free-photo.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.card-text-btn {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.card-btn {
+  height: 30px;
+  width: 50px;
+  border-radius: 25px;
+  padding: 5px;
+  border: none;
+  background-color: #541b08;
+  color: #d88259;
+}
+.card-btn-1 {
+  height: 30px;
+  width: 70px;
+  border-radius: 25px;
+  padding: 5px;
+  border: none;
+  color: #d88259;
+  background-color: #541b08;
+}
+h4 {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+p {
+  margin-top: 12px;
+  font-weight: 400;
+
+  color: #828181;
+}

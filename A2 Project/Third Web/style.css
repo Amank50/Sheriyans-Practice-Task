@@ -1,0 +1,214 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #fcfbfb;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  padding: 10px;
+}
+#logo {
+  margin: 30px;
+  color: #e65d00;
+  font-size: 28px;
+}
+li {
+  font-size: 15px;
+}
+li:hover {
+  color: #e65d00;
+  cursor: pointer;
+}
+.nav-icon {
+  position: absolute;
+  left: 90%;
+}
+.fa-magnifying-glass,
+.fa-cart-arrow-down,
+.fa-circle-user {
+  font-size: 20px;
+}
+#main-image {
+  width: 35%;
+  position: absolute;
+  top: 2%;
+  left: 33%;
+}
+
+.main-container {
+  height: 530px;
+  width: 330px;
+
+  position: relative;
+  left: 74%;
+}
+
+.small-card {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+}
+h3 {
+  text-align: center;
+  margin-top: 8px;
+  letter-spacing: 5px;
+  font-weight: 500;
+
+  font-size: 27px;
+}
+
+.small-card-card {
+  height: 150px;
+  width: 300px;
+  margin-left: 35px;
+
+  display: flex;
+  gap: 20px;
+}
+
+.card-1 {
+  padding: 10px;
+}
+
+.card-2 {
+  padding: 10px;
+}
+.card-1 img {
+  width: 80px;
+  border-radius: 20px;
+  border: 1.5px solid #e65d00;
+}
+.card-2 img {
+  width: 80px;
+  border-radius: 20px;
+}
+.small-card-card-1 {
+  height: 150px;
+  width: 300px;
+  display: flex;
+
+  margin-left: 30px;
+  position: absolute;
+
+  gap: 20px;
+  top: 220px;
+  bottom: 20px;
+}
+.card-3 {
+  padding: 10px;
+}
+
+.card-4 {
+  padding: 10px;
+}
+.card-3 img {
+  width: 80px;
+  border-radius: 20px;
+}
+.card-4 img {
+  width: 80px;
+  border-radius: 20px;
+}
+p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+#btn-1,
+#btn-2 {
+  position: relative;
+  top: 30%;
+  left: 15%;
+  height: 40px;
+  width: 240px;
+  border-radius: 25px;
+  padding: 10px;
+}
+#btn-1 i {
+  margin-right: 10px;
+}
+#btn-2 i {
+  margin-left: 10px;
+}
+
+#btn-2 {
+  background-color: #e65d00;
+  color: white;
+  border: none;
+}
+#btn-1 {
+  border: none;
+}
+.card-4 img:hover {
+  border: 1.5px solid #e65d00;
+}
+.card-3 img:hover {
+  border: 1.5px solid #e65d00;
+}
+.card-2 img:hover {
+  border: 1.5px solid #e65d00;
+}
+
+#btn-1:hover {
+  border: 1.5px solid #e65d00;
+  transition: all ease 0.5s;
+}
+.text-text {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  height: 400px;
+  width: 280px;
+}
+#new {
+  color: #e65d00;
+  margin-bottom: 6px;
+}
+
+h1 {
+  font-size: 40px;
+}
+#rupess {
+  font-size: 28px;
+  font-weight: bold;
+}
+#para {
+  font-size: 15px;
+  font-weight: 400;
+}
+#arrow {
+  position: absolute;
+  font-size: 25px;
+  left: 37%;
+  top: 471px;
+  color: #e65d00;
+  font-weight: 500;
+}
+
+.quality {
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: 90%;
+  padding: 15px;
+  gap: 65px;
+  font-size: 15px;
+  color: #70665d;
+}
+.fa-headphones,
+.fa-bluetooth-b,
+.fa-feather {
+  font-size: 20px;
+  color: #70665d;
+}

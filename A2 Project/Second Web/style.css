@@ -1,0 +1,229 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 100%;
+  height: 48%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 100px;
+  margin-left: 24px;
+  text-align: center;
+}
+
+
+.drink-1 {
+  height: 400px;
+  width: 18%;
+  background-color: #130f0e;
+  border-radius: 20px;
+  border: 1.5px solid #e15c14;
+}
+.drink-2 {
+  height: 400px;
+  width: 18%;
+  background-color: #130f0e;
+  border-radius: 20px;
+  border: 1.5px solid #e15c14;
+}
+.drink-3 {
+  height: 400px;
+  width: 18%;
+  background-color: #130f0e;
+  border-radius: 20px;
+  border: 1.5px solid #e15c14;
+}
+
+.drink-4 {
+  height: 400px;
+  width: 18%;
+  background-color: #130f0e;
+  border-radius: 20px;
+  border: 1.5px solid #e15c14;
+}
+
+.inner-drink-1 img {
+  height: 260px;
+  width: 150px;
+  position: relative;
+  bottom: 25px;
+}
+.inner-drink-2 img {
+  height: 260px;
+  width: 150px;
+  position: relative;
+  bottom: 10px;
+}
+.inner-drink-3 img {
+  height: 260px;
+  width: 150px;
+  position: relative;
+  bottom: 25px;
+}
+.inner-drink-4 img {
+  height: 260px;
+  width: 250px;
+  position: relative;
+  bottom: 25px;
+}
+h2 {
+  margin-bottom: 3px;
+}
+.inner-rupess:hover {
+  width: 100%;
+  height: 70px;
+  background-color: #de7238;
+  color: white;
+  transition: all ease 1s;
+}
+.inner-rupess {
+  border-radius: 0px 0px 15px 15px;
+}
+
+#rupess {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
+
+  position: relative;
+  top: 20px;
+}
+
+.line {
+  position: absolute;
+  width: 25%;
+  height: 2px;
+  left: 37.5%;
+  bottom: 87%;
+  background-color: #de7238;
+}
+
+.container-2 {
+  display: flex;
+  height: 350px;
+  width: 97%;
+  align-items: center;
+  border: 1px solid #e15c14;
+  background-color: #130f0e;
+  margin-top: 60px;
+  margin-left: 1.5%;
+  border-radius: 20px;
+}
+
+.dinner img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border-radius: 15px;
+  left: 25%;
+  top: 1%;
+}
+.dinner {
+  display: flex;
+}
+.diner-text {
+  height: 280px;
+  width: 550px;
+
+  position: absolute;
+  left: 40%;
+  top: 91%;
+}
+#heding-dinner {
+  position: relative;
+  right: 13%;
+  font-size: 35px;
+}
+#chef {
+  margin-top: 25px;
+  letter-spacing: 5px;
+  color: #e15c14;
+}
+#experience {
+  font-size: 15px;
+  font-weight: 200;
+  color: #757474;
+}
+#btn {
+  height: 50px;
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 25px;
+  color: #e15c14;
+  border: 1px solid #e15c14;
+  background-color: #130f0e;
+}
+.container-3{
+    height: 80px;
+    width: 100%;
+    border: 1px solid #e15c14;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 15px 15px 0px 0px;
+
+}
+.part-1{
+    height:50px ;
+    width: 15%;
+ 
+  padding: 10px;
+  color:  #757474;
+}
+.part-2{
+    height:50px ;
+    width: 40%;
+   
+    padding: 12px;
+    display: flex;
+    gap: 80px;
+   list-style: none;
+   color:  #757474;
+
+}
+.part-3{
+    height:50px ;
+    width: 15%;
+ 
+    padding: 10px;
+    display: flex;
+}
+.fa-brands{
+  padding: 5px;
+  font-size: 25px;
+  margin-left: 20px;
+  color: #de7238;
+}
+li{
+    font-size: 16px;
+}
+#btn:hover{
+background-color: white;
+color: #e15c14;
+transition: all ease 1s;
+border: 1.5px solid #e15c14;
+font-weight: 600;
+}
