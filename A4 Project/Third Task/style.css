@@ -1,0 +1,380 @@
+@font-face {
+  font-family: sagaui;
+  src: url(font/Assistant-Bold.ttf);
+}
+@font-face {
+  font-family: sagaui2;
+  src: url(font/Assistant-Regular.ttf);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  height: 100%;
+  width: 100%;
+  padding: 0 50px;
+}
+
+#landing-page {
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+}
+nav {
+  height: 80px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.nav-logo {
+  height: 70px;
+  width: 15%;
+  text-align: center;
+  padding: 15px;
+  font-family: sagaui2;
+}
+.nav-links {
+  height: 70px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 17.5px;
+  position: relative;
+}
+a::after {
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+a:hover::after {
+  transition: all ease 0.3s;
+  width: 100%;
+}
+.nav-icons {
+  height: 70px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-icons i {
+  font-size: 25px;
+}
+.nav-icons .ri-figma-line {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+.nav-icons .ri-shopping-cart-2-line {
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  color: white;
+  border-radius: 30px;
+  padding: 8px;
+}
+.text-div {
+  height: 140px;
+  width: 100%;
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.text-div .text-heading {
+  height: 145px;
+  width: 65%;
+  text-align: center;
+  font-size: 25px;
+  font-family: sagaui;
+  word-spacing: 7px;
+  letter-spacing: 2px;
+}
+.text-div .imge {
+  position: absolute;
+  left: 0;
+  top: 10%;
+}
+.text-div .imge-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.text-div img {
+  width: 200px;
+}
+.text-heading>img{
+width: 5%;
+
+}
+
+.gola {
+  position: absolute;
+left: 75%;
+  top: 25%;
+}
+.gola img{
+ width: 69%;
+}
+#inner-section {
+  height: 450px;
+  width: 100%;
+  /* background-color: royalblue; */
+  display: grid;
+  color: white;
+  font-size: 34px;
+  grid-template-columns: 16% 16% 20% 16% 16%;
+  grid-template-rows: 6% 17% 16% 8% 20% 15% 10%;
+  grid-template-areas:
+    "top top-center-l center-center top-center-r top-right"
+    "top center-left-t center-center center-right-t top-right"
+    "center  center-left-t center-center center-right-t center-right"
+    "center center-left-b center-center center-right-t center-right "
+    "center center-left-b center-center center-right-b center-right"
+    "bottom center-left-b center-center center-right-b bottom-right"
+    " bottom bottom-center-l center-center bottom-center-r  bottom-right ";
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1%;
+}
+
+.top {
+  grid-area: top;
+  border-radius: 15px;
+}
+.top-center-l {
+  grid-area: top-center-l;
+  border-radius: 15px;
+}
+.top-center-r {
+  grid-area: top-center-r;
+  border-radius: 15px;
+}
+.top-right {
+  grid-area: top-right;
+  border-radius: 15px;
+}
+
+.center {
+  background-color: burlywood;
+  grid-area: center;
+  border-radius: 15px;
+  background-image: url(assert/6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.center-left-t {
+  background-color: blue;
+  grid-area: center-left-t;
+  border-radius: 15px;
+  background-image: url(assert/9.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.center-left-b {
+  background-color: brown;
+  grid-area: center-left-b;
+  border-radius: 15px;
+  background-image: url(assert/3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.center-center {
+  background-color: blueviolet;
+  grid-area: center-center;
+  border-radius: 15px;
+  background-image: url(assert/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.center-right-t {
+  background-color: chartreuse;
+  grid-area: center-right-t;
+  border-radius: 15px;
+  background-image: url(assert/5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.center-right-b {
+  background-color: crimson;
+  grid-area: center-right-b;
+  border-radius: 15px;
+  background-image: url(assert/8.jpg);
+  background-position: center;
+  background-size: 168px;
+}
+.center-right {
+  background-color: tan;
+  grid-area: center-right;
+  border-radius: 15px;
+
+  background-image: url(assert/7.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bottom {
+  grid-area: bottom;
+  border-radius: 15px;
+}
+.bottom-center-l {
+  grid-area: bottom-center-l;
+  border-radius: 15px;
+}
+.bottom-center-r {
+  grid-area: bottom-center-r;
+  border-radius: 15px;
+}
+
+.bottom-right {
+  grid-area: bottom-right;
+  border-radius: 15px;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.bottom-right img{
+  width: 150px;
+  position: absolute;
+top: 94%;
+}
+#inner-section-2 {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+.text-top {
+  height: 80px;
+  width: 40%;
+
+}
+.all-text {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.sing {
+  height: 100px;
+  width: 25%;
+ text-align: center;
+ padding: 10px;
+ border-bottom: 11px solid #FAD64A;
+}
+.btn {
+  height: 110px;
+  width: 26%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+
+}
+
+.arrow {
+  height: 110px;
+  width: 27%;
+  display: flex;
+  justify-content: end;
+  position: relative;
+
+}
+.text-arrow {
+  height: 110px;
+  width: 75%;
+  padding: 10px;
+  position: relative;
+
+
+}
+.btn img {
+  width: 200px;
+  margin-right: 280px;
+  position: absolute;
+}
+.btn > button {
+  padding: 10px;
+  height: 50px;
+  width: 160px;
+  position: absolute;
+  right: 25%;
+  font-size: 15px;
+  font-weight: 15px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+
+.arrow>h1 {
+  font-size: 80px;
+  font-weight: 100;
+  position: absolute;
+  left: 5%;
+  bottom: 2%;
+
+}
+.text-arrow p {
+  font-weight: 500;
+  font-size: 15px;
+}
+.text-arrow h5 {
+  font-size: 17px;
+  margin-top: 8px;
+}
+.text-arrow i {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  background-color: black;
+  padding: 15px;
+  color: white;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.text-top {
+  padding: 15px;
+  font-size: 17px;
+  line-height: 2;
+}
+.comma img {
+  position: absolute;
+  width: 8%;
+  top: 90%;
+}
+.sing img{
+  width: 82%;
+ 
+}
